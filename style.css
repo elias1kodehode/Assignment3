@@ -7,6 +7,9 @@ body {
   background-color: black;
   color: #d50000;
 }
+main {
+  width: 70%;
+}
 .hero {
   height: 100vh;
   display: flex;
@@ -39,6 +42,10 @@ body {
 .stickymars {
   position: sticky;
   top: 0;
+}
+.maincontainer {
+  display: flex;
+  justify-content: center;
 }
 
 video {

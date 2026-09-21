@@ -47,10 +47,13 @@ main {
   display: flex;
   justify-content: center;
 }
-
 video {
   max-width: auto;
   height: 100%;
   display: block;
   position: relative;
+}
+.modellcontainer {
+  display: flex;
+  justify-content: center;
 }

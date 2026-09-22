@@ -47,7 +47,6 @@ main {
   display: flex;
   justify-content: center;
 }
-
 video {
   max-width: auto;
   height: 100%;
@@ -131,3 +130,7 @@ body{
     margin-bottom: 20px;
 }
 
+.modellcontainer {
+  display: flex;
+  justify-content: center;
+}

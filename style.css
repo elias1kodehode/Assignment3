@@ -7,6 +7,9 @@ body {
   background-color: black;
   color: #d50000;
 }
+html {
+  scroll-behavior: smooth;
+}
 main {
   width: 70%;
 }
@@ -41,6 +44,7 @@ main {
 }
 .stickymars {
   position: sticky;
+  width: 15%;
   top: 0;
 }
 .maincontainer {
@@ -133,4 +137,32 @@ body{
 .modellcontainer {
   display: flex;
   justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-item {
+  width: 400px;
+  transition:
+    width 1s,
+    height 1s;
+}
+.gallery-item:hover {
+  width: 100%;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+.gallery-desc {
+  text-align: center;
+}
+iframe {
+  width: 100%;
+  height: 90vh;
+  border: none;
 }

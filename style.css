@@ -53,6 +53,83 @@ video {
   display: block;
   position: relative;
 }
+
+h1{
+  font-size: 100px;
+}
+
+
+
+body{
+  line-height: 1.7;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.fact {
+    background: linear-gradient(
+        145deg,
+        rgba(150, 45, 30, 0.25),
+        rgba(30, 15, 15, 0.7)
+    );
+    border-radius: 25px;
+    padding: 20px;
+
+    border: 1px solid transparent;
+
+    transition: 0.3s ease;
+
+}
+
+.fact strong {
+    color: #f07857;
+    font-size: 17px;
+}
+
+.fact:hover {
+    transform: translateY(-5px);
+
+    border-color: #e85d3f;
+
+    background: linear-gradient(
+        145deg,
+        rgba(180, 55, 35, 0.35),
+        rgba(30, 15, 15, 0.8)
+    );
+}
+
+#informasjon {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+  
+}
+
+#informasjon h2 {
+    color: #e85d3f;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    border-bottom: 2px solid #3a211d;
+    padding-bottom: 10px;
+}
+
+#informasjon h3 {
+    color: #d9917d;
+    margin-top: 30px;
+}
+
+#informasjon p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
 .modellcontainer {
   display: flex;
   justify-content: center;

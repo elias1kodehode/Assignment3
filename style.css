@@ -73,11 +73,7 @@ body{
 }
 
 .fact {
-    background: linear-gradient(
-        145deg,
-        rgba(150, 45, 30, 0.25),
-        rgba(30, 15, 15, 0.7)
-    );
+    background-color: #2C100C;
     border-radius: 25px;
     padding: 20px;
 
@@ -97,11 +93,7 @@ body{
 
     border-color: #e85d3f;
 
-    background: linear-gradient(
-        145deg,
-        rgba(180, 55, 35, 0.35),
-        rgba(30, 15, 15, 0.8)
-    );
+    background-color: #2C100C;
 }
 
 #informasjon {

@@ -6,6 +6,18 @@
 body {
   background-color: black;
   color: #d50000;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -47,7 +59,32 @@ main {
   width: 15%;
   height: 400px;
   top: 0;
-  border: #ff0 5px solid;
+  margin-left: 10px;
+}
+nav li {
+  list-style: none;
+  background-color: #2c100c;
+  border-radius: 25px;
+  padding: 20px;
+
+  border: 1px solid transparent;
+
+  border: 1px solid transparent;
+
+  transition: 0.3s ease;
+  text-align: center;
+  margin-bottom: 5px;
+}
+nav li:hover {
+  transform: translateY(-5px);
+
+  border-color: #e85d3f;
+
+  background-color: #2c100c;
+}
+nav a {
+  color: #e85d3f;
+  text-decoration: none;
 }
 .maincontainer {
   display: flex;
@@ -76,11 +113,11 @@ body {
 }
 
 .fact {
-    background-color: #2C100C;
-    border-radius: 25px;
-    padding: 20px;
+  background-color: #2c100c;
+  border-radius: 25px;
+  padding: 20px;
 
-    border: 1px solid transparent;
+  border: 1px solid transparent;
 
   border: 1px solid transparent;
 
@@ -97,7 +134,7 @@ body {
 
   border-color: #e85d3f;
 
-    background-color: #2C100C;
+  background-color: #2c100c;
 }
 
 section {
@@ -139,6 +176,7 @@ section p {
 }
 .gallery-item {
   width: 400px;
+  margin: 20px;
   transition:
     width 1s,
     height 1s;
@@ -152,6 +190,8 @@ section p {
 }
 .gallery-desc {
   text-align: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 iframe {
   width: 100%;
